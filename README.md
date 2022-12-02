@@ -18,6 +18,8 @@ import { multiply } from 'react-native-common-styles';
 const result = await multiply(3, 7);
 ```
 
+## Known issues
+    To align a reversed row (`.rowReversed`) to the right you have to use `.alignLeft`
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
