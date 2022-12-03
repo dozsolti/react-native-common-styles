@@ -42,9 +42,21 @@ export const SubTitle = ({ text }: { text: string }) => {
     </Text>
   );
 };
+export const Label = ({ text }: { text: string }) => {
+  return (
+    <Text
+      style={{
+        fontSize: 16,
+        color: 'gray',
+      }}
+    >
+      {text}
+    </Text>
+  );
+};
 
 export const WrapperDecorator = (getStory: Function) => {
-  return <View style={{ paddingHorizontal: 12 }}>{getStory()}</View>;
+  return <View style={{ flex: 1, paddingHorizontal: 12 }}>{getStory()}</View>;
 };
 
 export const TextElements = ({ length }: { length: number }) => (

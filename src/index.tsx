@@ -17,6 +17,94 @@ const styles = StyleSheet.create({
 
   fill: { flex: 1 },
 
+  //#region Widths
+  width0: { width: 0 },
+  width10: { width: '10%' },
+  width15: { width: '15%' },
+  width20: { width: '20%' },
+  width25: { width: '25%' },
+  width33: { width: '33.5%' },
+  width50: { width: '50%' },
+  width66: { width: '66.5%' },
+  width75: { width: '75%' },
+  width80: { width: '80%' },
+  width85: { width: '85%' },
+  width90: { width: '90%' },
+  width100: { width: '100%' },
+
+  minWidth0: { minWidth: 0 },
+  minWidth10: { minWidth: '10%' },
+  minWidth15: { minWidth: '15%' },
+  minWidth20: { minWidth: '20%' },
+  minWidth25: { minWidth: '25%' },
+  minWidth33: { minWidth: '33.5%' },
+  minWidth50: { minWidth: '50%' },
+  minWidth66: { minWidth: '66.5%' },
+  minWidth75: { minWidth: '75%' },
+  minWidth80: { minWidth: '80%' },
+  minWidth85: { minWidth: '85%' },
+  minWidth90: { minWidth: '90%' },
+  minWidth100: { minWidth: '100%' },
+
+  maxWidth0: { maxWidth: 0 },
+  maxWidth10: { maxWidth: '10%' },
+  maxWidth15: { maxWidth: '15%' },
+  maxWidth20: { maxWidth: '20%' },
+  maxWidth25: { maxWidth: '25%' },
+  maxWidth33: { maxWidth: '33.5%' },
+  maxWidth50: { maxWidth: '50%' },
+  maxWidth66: { maxWidth: '66.5%' },
+  maxWidth75: { maxWidth: '75%' },
+  maxWidth80: { maxWidth: '80%' },
+  maxWidth85: { maxWidth: '85%' },
+  maxWidth90: { maxWidth: '90%' },
+  maxWidth100: { maxWidth: '100%' },
+  //#endregion
+
+  //#region Height
+  height0: { height: 0 },
+  height10: { height: '10%' },
+  height15: { height: '15%' },
+  height20: { height: '20%' },
+  height25: { height: '25%' },
+  height33: { height: '33.5%' },
+  height50: { height: '50%' },
+  height66: { height: '66.5%' },
+  height75: { height: '75%' },
+  height80: { height: '80%' },
+  height85: { height: '85%' },
+  height90: { height: '90%' },
+  height100: { height: '100%' },
+
+  minHeight0: { minHeight: 0 },
+  minHeight10: { minHeight: '10%' },
+  minHeight15: { minHeight: '15%' },
+  minHeight20: { minHeight: '20%' },
+  minHeight25: { minHeight: '25%' },
+  minHeight33: { minHeight: '33.5%' },
+  minHeight50: { minHeight: '50%' },
+  minHeight66: { minHeight: '66.5%' },
+  minHeight75: { minHeight: '75%' },
+  minHeight80: { minHeight: '80%' },
+  minHeight85: { minHeight: '85%' },
+  minHeight90: { minHeight: '90%' },
+  minHeight100: { minHeight: '100%' },
+
+  maxHeight0: { maxHeight: 0 },
+  maxHeight10: { maxHeight: '10%' },
+  maxHeight15: { maxHeight: '15%' },
+  maxHeight20: { maxHeight: '20%' },
+  maxHeight25: { maxHeight: '25%' },
+  maxHeight33: { maxHeight: '33.5%' },
+  maxHeight50: { maxHeight: '50%' },
+  maxHeight66: { maxHeight: '66.5%' },
+  maxHeight75: { maxHeight: '75%' },
+  maxHeight80: { maxHeight: '80%' },
+  maxHeight85: { maxHeight: '85%' },
+  maxHeight90: { maxHeight: '90%' },
+  maxHeight100: { maxHeight: '100%' },
+  //#endregion
+
   alignCenter: { alignItems: 'center', justifyContent: 'center' },
 
   alignTop: { justifyContent: 'flex-start' },
@@ -33,6 +121,7 @@ const styles = StyleSheet.create({
   alignRowCenterVertical: { alignItems: 'center' },
   alignRowCenterHorizontal: { justifyContent: 'center' },
 
+  //#region Margins and Paddings
   margin0: { margin: 0 },
   margin1: { margin: 4 }, // 1
   margin2: { margin: 8 }, // 2
@@ -228,6 +317,33 @@ const styles = StyleSheet.create({
   paddingHorizontal10: { paddingHorizontal: 40 }, // 10
   paddingHorizontal11: { paddingHorizontal: 44 }, // 11
   paddingHorizontal12: { paddingHorizontal: 48 }, // 12
+
+  //#endregion
+
+  //#region Text
+  textAuto: { textAlign: 'auto' },
+  textLeft: { textAlign: 'left' },
+  textCenter: { textAlign: 'center' },
+  textRight: { textAlign: 'right' },
+  textJustify: { textAlign: 'justify' },
+
+  textThinest: { fontWeight: '100' },
+  textThiner: { fontWeight: '200' },
+  textThin: { fontWeight: '300' },
+  textNormal: { fontWeight: 'normal' },
+  textBold: { fontWeight: '700' },
+  textBolder: { fontWeight: '800' },
+  textBoldest: { fontWeight: '900' },
+
+  textUppercase: { textTransform: 'uppercase' },
+  textLowercase: { textTransform: 'lowercase' },
+  textCapitalize: { textTransform: 'capitalize' },
+  textNoTransform: { textTransform: 'none' },
+
+  textUnderline: { textDecorationLine: 'underline' },
+  textStrike: { textDecorationLine: 'line-through' },
+  textNoDecoration: { textDecorationLine: 'none' },
+  //#endregion
 });
 
 export const commonStyles = styles;
