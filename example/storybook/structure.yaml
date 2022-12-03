@@ -1,0 +1,85 @@
+Layout:
+    Basic:
+      - Basic row
+      - Basic stack
+    Align:
+      - Row
+        - top left, top center, top right
+        - middle left, center, middle right
+        - bottom left, bottom center, bottom right
+      - Stack
+        - top left, top center, top right
+        - middle left, center, middle right
+        - bottom left, bottom center, bottom right
+    Spacing:    
+      - Row
+        - around, between, evenly
+
+Spacing:
+    Margins:
+        - margin0-12
+        - marginLeft0-12
+        - marginHorizontal0-12
+        - marginVertical0-12
+    Paddings:
+        - padding0-12
+        - paddingLeft0-12
+        - paddingHorizontal0-12
+        - paddingVertical0-12
+
+Sizing:
+    - fill
+    - fullScreen
+    Width:
+    - width0,10,15,20,25,33,50,66,75,80,85,90,100 %
+    - widthScreen: { width: screenWidth },
+    - maxWidthScreen: { maxWidth: screenWidth },
+
+    Height:
+    - height0,10,15,20,25,33,50,66,75,80,85,90,100 %
+    - heightScreen: { height: screenHeight },
+    - maxHeightScreen: { maxHeight: screenHeight },
+
+Text:
+    Alignment:
+        - textLeft
+        - textCenter
+        - textRight
+    Weight:
+        - textBold
+        - textBolder
+        - textBoldest
+    Transforms:
+        - textUppercase
+        - textLowercase
+        - textCapitalize
+    Decorations:
+        - textUnderline
+        - textStrike
+
+Utilities:
+    Display:
+        - hidden: diplay: none
+        - show: diplay: flex
+
+    Image:
+        imageContain, imageCover
+        imageX => resizeMode: X 
+
+    Position:
+        - relative
+        - absolute
+        - absoluteBottom: { position: "absolute", bottom: 0, left: 0, right: 0 },
+        - absoluteTop: { position: "absolute", top: 0, left: 0, right: 0 },
+        - absoluteFill: StyleSheet.absoluteFillObject,
+
+    - z-index
+        0 - 12, 999
+    - opacity
+        0-10 x=>x%
+
+    Border:
+        - bordered 1px solid black
+        - borderRadius1-3
+        - rounded => borderRadius 99999
+
