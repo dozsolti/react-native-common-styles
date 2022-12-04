@@ -105,6 +105,7 @@ const styles = StyleSheet.create({
   maxHeight100: { maxHeight: '100%' },
   //#endregion
 
+  //#region Alignment
   alignCenter: { alignItems: 'center', justifyContent: 'center' },
 
   alignTop: { justifyContent: 'flex-start' },
@@ -120,6 +121,8 @@ const styles = StyleSheet.create({
   alignRowRight: { justifyContent: 'flex-end' },
   alignRowCenterVertical: { alignItems: 'center' },
   alignRowCenterHorizontal: { justifyContent: 'center' },
+
+  //#endregion
 
   //#region Margins and Paddings
   margin0: { margin: 0 },
@@ -343,6 +346,63 @@ const styles = StyleSheet.create({
   textUnderline: { textDecorationLine: 'underline' },
   textStrike: { textDecorationLine: 'line-through' },
   textNoDecoration: { textDecorationLine: 'none' },
+  //#endregion
+
+  //#region Utilities
+  show: { display: 'flex' },
+  hidden: { display: 'none' },
+
+  imageCenter: { resizeMode: 'center' },
+  imageContain: { resizeMode: 'contain' },
+  imageCover: { resizeMode: 'cover' },
+  imageRepeat: { resizeMode: 'repeat' },
+  imageStretch: { resizeMode: 'stretch' },
+
+  relative: { position: 'relative' },
+  absolute: { position: 'absolute' },
+
+  absoluteBottom: { position: 'absolute', bottom: 0, left: 0, right: 0 },
+  absoluteTop: { position: 'absolute', top: 0, left: 0, right: 0 },
+  absoluteFill: StyleSheet.absoluteFillObject,
+
+  opacity0: { opacity: 0 },
+  opacity1: { opacity: 0.1 },
+  opacity2: { opacity: 0.2 },
+  opacity3: { opacity: 0.3 },
+  opacity4: { opacity: 0.4 },
+  opacity5: { opacity: 0.5 },
+  opacity6: { opacity: 0.6 },
+  opacity7: { opacity: 0.7 },
+  opacity8: { opacity: 0.8 },
+  opacity9: { opacity: 0.9 },
+  opacity10: { opacity: 1 },
+
+  zIndex0: { zIndex: 0 },
+  zIndex1: { zIndex: 1 },
+  zIndex2: { zIndex: 2 },
+  zIndex3: { zIndex: 3 },
+  zIndex4: { zIndex: 4 },
+  zIndex5: { zIndex: 5 },
+  zIndex6: { zIndex: 6 },
+  zIndex7: { zIndex: 7 },
+  zIndex8: { zIndex: 8 },
+  zIndex9: { zIndex: 9 },
+  zIndex10: { zIndex: 10 },
+  zIndexTop: { zIndex: 9999999999 },
+
+  bordered: {
+    borderWidth: 2,
+    borderColor: '#000',
+  },
+  square: { aspectRatio: 1 / 1 },
+
+  rounded0: { borderRadius: 0 },
+  rounded1: { borderRadius: 8 },
+  rounded2: { borderRadius: 16 },
+  rounded3: { borderRadius: 24 },
+
+  rounded: { borderRadius: 99999 },
+
   //#endregion
 });
 

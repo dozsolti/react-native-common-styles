@@ -27,8 +27,13 @@ Spacing:
         - paddingHorizontal0-12
         - paddingVertical0-12
 
-Sizing: {_}
+Sizing: {next version screen sizes}
     - fill {X}
+    - square => aspectRatio: 1/1
+    - 4/3
+    - 16/9
+    - 3/4
+    - 9/16
     - fullScreen {first choose between Dimensions.get window|screen}
     Width:
     - width0,10,15,20,25,33,50,66,75,80,85,90,100 % {X}
@@ -65,25 +70,25 @@ Text:
         - textStrike
         - textNoDecoration
 
-Utilities: (-)
-    Display:
+Utilities: (to do)
+    Display: {X}
         - hidden: diplay: none
         - show: diplay: flex
 
-    Image:
+    Image: {X}
         imageContain, imageCover
         imageX => resizeMode: X 
 
-    Position:
+    Position: {todo blabla}
         - relative
         - absolute
         - absoluteBottom: { position: "absolute", bottom: 0, left: 0, right: 0 },
         - absoluteTop: { position: "absolute", top: 0, left: 0, right: 0 },
         - absoluteFill: StyleSheet.absoluteFillObject,
 
-    - z-index
+    - z-index {X}
         0 - 12, 999
-    - opacity
+    - opacity {X}
         0-10 x=>x%
 
     Border:
